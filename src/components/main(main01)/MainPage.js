@@ -96,7 +96,7 @@ function MainPage(props) {
             className="calendarButtonLeft"
             onClick={() => navigate('/cal')}
           >
-            체 전시 일정 확인하기<br />
+            전체 전시 일정 확인하기<br />
             <ArrowForwardIos />
           </div>
         </div>
