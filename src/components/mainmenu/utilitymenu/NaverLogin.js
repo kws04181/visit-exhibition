@@ -24,7 +24,7 @@ function NaverLogin() {
   const initializeNaverLogin = () => {
     const naverLogin = new naver.LoginWithNaverId({
       clientId: 'YrwSEQ1V45KSMRgkt6mS',
-      callbackUrl: 'http://localhost:3000',
+      callbackUrl: 'https://visit-exhibition-kim.netlify.app',
       isPopup: false,
       loginButton: { color: 'green', type: 4, height: 50 },
       callbackHandle: true,
